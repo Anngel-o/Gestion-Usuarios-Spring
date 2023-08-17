@@ -17,7 +17,7 @@ public class UsuarioController {
         usuario.setName("Ánngel");
         usuario.setLastName("Ortiz");
         usuario.setEmail("anngelo.omz@gmail.com");
-        usuario.setTelefono("6143727716");
+        usuario.setCell("6143727716");
         return usuario;
     }
 
@@ -31,14 +31,14 @@ public class UsuarioController {
         usuario.setName("Ánngel");
         usuario.setLastName("Ortiz");
         usuario.setEmail("anngelo.omz@gmail.com");
-        usuario.setTelefono("6143727716");
+        usuario.setCell("6143727716");
 
         Usuario usuario2 = new Usuario();
         usuario2.setId(2);
         usuario2.setName("Mariam");
         usuario2.setLastName("García");
         usuario2.setEmail("mariam.zgc@gmail.com");
-        usuario2.setTelefono("6143830899");
+        usuario2.setCell("6143830899");
 
         usuarios.add(usuario);
         usuarios.add(usuario2);

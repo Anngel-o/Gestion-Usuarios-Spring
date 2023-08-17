@@ -5,7 +5,7 @@ public class Usuario {
     private String name;
     private String lastName;
     private String email;
-    private String telefono;
+    private String cell;
 
     public long getId() {
         return id;
@@ -39,11 +39,11 @@ public class Usuario {
         this.email = email;
     }
 
-    public String getTelefono() {
-        return telefono;
+    public String getCell() {
+        return cell;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
+    public void setCell(String cell) {
+        this.cell = cell;
     }
 }
